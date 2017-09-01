@@ -1,8 +1,6 @@
-from openpyxl import Workbook
-from filelock import FileLock
-
 import config
 from dal.item_controller import ItemController
+from openpyxl import Workbook
 
 
 def lock_file(func):
